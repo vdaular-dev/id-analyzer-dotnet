@@ -1,4 +1,13 @@
 
+> # ⚠️ DEPRECATED — use the v2 SDK
+> This is the legacy **API v1** .NET SDK (NuGet package `IDAnalyzer`). It targets the
+> older `api.idanalyzer.com` endpoint and is no longer actively maintained.
+>
+> **New projects should use the API v2 SDK:**
+> NuGet [`IDAnalyzer.V2`](https://www.nuget.org/packages/IDAnalyzer.V2) ·
+> repo [idanalyzer/id-analyzer-v2-dotnet](https://github.com/idanalyzer/id-analyzer-v2-dotnet)
+> (`dotnet add package IDAnalyzer.V2`).
+
 # ID Analyzer .NET SDK
 This is a .Net SDK for [ID Analyzer Identity Verification APIs](https://www.idanalyzer.com), though all the APIs can be called with without the SDK using simple HTTP requests as outlined in the [documentation](https://developer.idanalyzer.com), you can use this SDK to accelerate server-side development.
 
